@@ -9,9 +9,11 @@
 /* Begin PBXBuildFile section */
 		62FF00001AF514CC00800886 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62FFFFFE1AF514CC00800886 /* LaunchScreen.xib */; };
 		62FF000C1AF514CC00800886 /* UITableViewCellCustomLoadingAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FF000B1AF514CC00800886 /* UITableViewCellCustomLoadingAnimationTests.m */; };
+		62FF00271AF52EE900800886 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FF00211AF52EE900800886 /* AppDelegate.m */; };
+		62FF00281AF52EE900800886 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FF00231AF52EE900800886 /* ViewController.m */; };
+		62FF00291AF52EE900800886 /* Bird.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62FF00251AF52EE900800886 /* Bird.jpg */; };
+		62FF002A1AF52EE900800886 /* Bird@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62FF00261AF52EE900800886 /* Bird@2x.jpg */; };
 		62FFFFF21AF514CC00800886 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FFFFF11AF514CC00800886 /* main.m */; };
-		62FFFFF51AF514CC00800886 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FFFFF41AF514CC00800886 /* AppDelegate.m */; };
-		62FFFFF81AF514CC00800886 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FFFFF71AF514CC00800886 /* ViewController.m */; };
 		62FFFFFB1AF514CC00800886 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62FFFFF91AF514CC00800886 /* Main.storyboard */; };
 		62FFFFFD1AF514CC00800886 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62FFFFFC1AF514CC00800886 /* Images.xcassets */; };
 /* End PBXBuildFile section */
@@ -30,13 +32,15 @@
 		62FF00051AF514CC00800886 /* UITableViewCellCustomLoadingAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewCellCustomLoadingAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62FF000A1AF514CC00800886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62FF000B1AF514CC00800886 /* UITableViewCellCustomLoadingAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewCellCustomLoadingAnimationTests.m; sourceTree = "<group>"; };
+		62FF00201AF52EE900800886 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		62FF00211AF52EE900800886 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		62FF00221AF52EE900800886 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		62FF00231AF52EE900800886 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		62FF00251AF52EE900800886 /* Bird.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bird.jpg; sourceTree = "<group>"; };
+		62FF00261AF52EE900800886 /* Bird@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bird@2x.jpg"; sourceTree = "<group>"; };
 		62FFFFEC1AF514CC00800886 /* UITableViewCellCustomLoadingAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITableViewCellCustomLoadingAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62FFFFF01AF514CC00800886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62FFFFF11AF514CC00800886 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		62FFFFF31AF514CC00800886 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		62FFFFF41AF514CC00800886 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		62FFFFF61AF514CC00800886 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		62FFFFF71AF514CC00800886 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		62FFFFFA1AF514CC00800886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		62FFFFFC1AF514CC00800886 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		62FFFFFF1AF514CC00800886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -77,6 +81,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		62FF001F1AF52EE900800886 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				62FF00201AF52EE900800886 /* AppDelegate.h */,
+				62FF00211AF52EE900800886 /* AppDelegate.m */,
+				62FF00221AF52EE900800886 /* ViewController.h */,
+				62FF00231AF52EE900800886 /* ViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		62FF00241AF52EE900800886 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				62FF00251AF52EE900800886 /* Bird.jpg */,
+				62FF00261AF52EE900800886 /* Bird@2x.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		62FFFFE31AF514CC00800886 = {
 			isa = PBXGroup;
 			children = (
@@ -98,10 +122,8 @@
 		62FFFFEE1AF514CC00800886 /* UITableViewCellCustomLoadingAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				62FFFFF31AF514CC00800886 /* AppDelegate.h */,
-				62FFFFF41AF514CC00800886 /* AppDelegate.m */,
-				62FFFFF61AF514CC00800886 /* ViewController.h */,
-				62FFFFF71AF514CC00800886 /* ViewController.m */,
+				62FF001F1AF52EE900800886 /* Classes */,
+				62FF00241AF52EE900800886 /* Images */,
 				62FFFFF91AF514CC00800886 /* Main.storyboard */,
 				62FFFFFC1AF514CC00800886 /* Images.xcassets */,
 				62FFFFFE1AF514CC00800886 /* LaunchScreen.xib */,
@@ -206,6 +228,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62FF00291AF52EE900800886 /* Bird.jpg in Resources */,
+				62FF002A1AF52EE900800886 /* Bird@2x.jpg in Resources */,
 				62FFFFFB1AF514CC00800886 /* Main.storyboard in Resources */,
 				62FF00001AF514CC00800886 /* LaunchScreen.xib in Resources */,
 				62FFFFFD1AF514CC00800886 /* Images.xcassets in Resources */,
@@ -227,8 +251,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62FFFFF81AF514CC00800886 /* ViewController.m in Sources */,
-				62FFFFF51AF514CC00800886 /* AppDelegate.m in Sources */,
+				62FF00281AF52EE900800886 /* ViewController.m in Sources */,
+				62FF00271AF52EE900800886 /* AppDelegate.m in Sources */,
 				62FFFFF21AF514CC00800886 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -403,6 +427,7 @@
 				62FF00111AF514CC00800886 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62FF00121AF514CC00800886 /* Build configuration list for PBXNativeTarget "UITableViewCellCustomLoadingAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -411,6 +436,7 @@
 				62FF00141AF514CC00800886 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62FFFFE71AF514CC00800886 /* Build configuration list for PBXProject "UITableViewCellCustomLoadingAnimation" */ = {
 			isa = XCConfigurationList;

@@ -9,7 +9,15 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    NSString *animationType;
+}
 
+@property (weak, nonatomic) IBOutlet UITableView *animatedUITableView;
+
+- (IBAction)didTapBottomToTopAnimationBtn:(id)sender;
+
+- (IBAction)didTapRightToLeftAnimationBtn:(id)sender;
 
 @end
 
